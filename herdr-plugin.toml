@@ -1,0 +1,24 @@
+id = "workspace-tools"
+name = "Workspace Tools"
+version = "0.1.0"
+min_herdr_version = "0.7.0"
+description = "Small workspace helpers"
+platforms = ["linux", "macos", "windows"]
+
+[[actions]]
+id = "list-workspaces"
+title = "List workspaces"
+contexts = ["workspace"]
+command = ["node", "index.js"]
+
+[[actions]]
+id = "focus-workspace"
+title = "Focus workspace…"
+contexts = ["workspace"]
+command = ["node", "open-picker.js"]
+
+[[panes]]
+id = "workspace-picker"
+title = "Focus workspace"
+placement = "overlay"
+command = ["node", "picker.js"]
