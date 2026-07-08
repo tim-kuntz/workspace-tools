@@ -3,7 +3,13 @@
 ## Install
 
 ```bash
-herdr plugin install ~/src/personal/herdr-plugins/workspace-tools
+herdr plugin install tim-kuntz/workspace-tools
+```
+
+Or clone and link the plugin:
+
+```bash
+herdr plugin link <path-to-workspace-tools>
 ```
 
 ## Configure
