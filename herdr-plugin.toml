@@ -17,6 +17,12 @@ title = "Focus workspace…"
 contexts = ["workspace"]
 command = ["node", "open-picker.js"]
 
+[[actions]]
+id = "toggle-last-workspace"
+title = "Toggle last workspace"
+contexts = ["workspace"]
+command = ["node", "toggle-workspace.js"]
+
 [[panes]]
 id = "workspace-picker"
 title = "Focus workspace"
